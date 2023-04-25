@@ -9,9 +9,6 @@
     ],
     "/workspaces/project-manager-tasks-nextjs/app/(auth)/layout.tsx": [
       "/workspaces/project-manager-tasks-nextjs/styles/global.css"
-    ],
-    "/workspaces/project-manager-tasks-nextjs/app/(dashboard)/layout.tsx": [
-      "/workspaces/project-manager-tasks-nextjs/styles/global.css"
     ]
   },
   "cssModules": {
@@ -21,10 +18,6 @@
       "/workspaces/project-manager-tasks-nextjs/app/globals.css"
     ],
     "/workspaces/project-manager-tasks-nextjs/app/(auth)/sign-in/page": [
-      "/workspaces/project-manager-tasks-nextjs/styles/global.css",
-      "/workspaces/project-manager-tasks-nextjs/app/globals.css"
-    ],
-    "/workspaces/project-manager-tasks-nextjs/app/(dashboard)/home/page": [
       "/workspaces/project-manager-tasks-nextjs/styles/global.css",
       "/workspaces/project-manager-tasks-nextjs/app/globals.css"
     ]
