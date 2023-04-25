@@ -3602,6 +3602,12 @@ self.__RSC_MANIFEST={
     ],
     "/workspaces/project-manager-tasks-nextjs/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/workspaces/project-manager-tasks-nextjs/app/(auth)/layout": [
+      "static/css/app/(auth)/layout.css"
+    ],
+    "/workspaces/project-manager-tasks-nextjs/app/(dashboard)/layout": [
+      "static/css/app/(dashboard)/layout.css"
     ]
   },
   "clientModules": {
@@ -11912,6 +11918,14 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
+      ]
+    },
+    "/workspaces/project-manager-tasks-nextjs/styles/global.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/(auth)/layout.css",
+        "static/css/app/(dashboard)/layout.css"
       ]
     }
   }
