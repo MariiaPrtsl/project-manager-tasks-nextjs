@@ -3602,9 +3602,6 @@
     ],
     "/workspaces/project-manager-tasks-nextjs/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/workspaces/project-manager-tasks-nextjs/app/(auth)/layout": [
-      "static/css/app/(auth)/layout.css"
     ]
   },
   "clientModules": {
@@ -11915,13 +11912,6 @@
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
-      ]
-    },
-    "/workspaces/project-manager-tasks-nextjs/styles/global.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/(auth)/layout.css"
       ]
     }
   }
