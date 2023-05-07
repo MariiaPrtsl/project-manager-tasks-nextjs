@@ -7,7 +7,7 @@ self.__RSC_CSS_MANIFEST={
     "/workspaces/project-manager-tasks-nextjs/app/layout.tsx": [
       "/workspaces/project-manager-tasks-nextjs/app/globals.css"
     ],
-    "/workspaces/project-manager-tasks-nextjs/app/(dashboard)/layout.tsx": [
+    "/workspaces/project-manager-tasks-nextjs/app/(auth)/layout.tsx": [
       "/workspaces/project-manager-tasks-nextjs/styles/global.css"
     ]
   },
@@ -17,7 +17,11 @@ self.__RSC_CSS_MANIFEST={
       "/workspaces/project-manager-tasks-nextjs/node_modules/@next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/workspaces/project-manager-tasks-nextjs/app/globals.css"
     ],
-    "/workspaces/project-manager-tasks-nextjs/app/(dashboard)/home/page": [
+    "/workspaces/project-manager-tasks-nextjs/app/(auth)/register/page": [
+      "/workspaces/project-manager-tasks-nextjs/styles/global.css",
+      "/workspaces/project-manager-tasks-nextjs/app/globals.css"
+    ],
+    "/workspaces/project-manager-tasks-nextjs/app/(auth)/sign-in/page": [
       "/workspaces/project-manager-tasks-nextjs/styles/global.css",
       "/workspaces/project-manager-tasks-nextjs/app/globals.css"
     ]

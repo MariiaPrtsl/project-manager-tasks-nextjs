@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       }
@@ -3401,7 +3401,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -3409,7 +3409,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       },
@@ -3417,7 +3417,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:static/chunks/app-client-internals.js"
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
         ],
         "async": false
       }
@@ -3593,6 +3593,274 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./components/AuthForm.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/AuthForm.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/AuthForm.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/AuthForm.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Button.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Button.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Button.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Button.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Card.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Card.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Card.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Card.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Input.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Input.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Input.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Input.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./lib/api.ts": {
+      "*": {
+        "id": "(sc_client)/./lib/api.ts",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./lib/api.ts",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "register": {
+        "id": "(sc_client)/./lib/api.ts",
+        "name": "register",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "signin": {
+        "id": "(sc_client)/./lib/api.ts",
+        "name": "signin",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -3602,6 +3870,9 @@ self.__RSC_MANIFEST={
     ],
     "/workspaces/project-manager-tasks-nextjs/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/workspaces/project-manager-tasks-nextjs/app/(auth)/layout": [
+      "static/css/app/(auth)/layout.css"
     ]
   },
   "clientModules": {
@@ -7417,7 +7688,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -7425,7 +7696,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -7433,7 +7704,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -7441,7 +7712,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -7449,7 +7720,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -7457,7 +7728,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10585,7 +10856,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10593,7 +10864,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10601,7 +10872,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10609,7 +10880,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10617,7 +10888,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10625,7 +10896,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10697,7 +10968,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10705,7 +10976,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10713,7 +10984,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10721,7 +10992,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10729,7 +11000,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10737,7 +11008,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10745,7 +11016,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10753,7 +11024,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10921,7 +11192,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10929,7 +11200,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10937,7 +11208,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10945,7 +11216,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10953,7 +11224,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10961,7 +11232,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10969,7 +11240,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10977,7 +11248,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10985,7 +11256,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -10993,7 +11264,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11001,7 +11272,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11009,7 +11280,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11017,7 +11288,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11025,7 +11296,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11033,7 +11304,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11041,7 +11312,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
       ],
       "async": false
     },
@@ -11913,6 +12184,1133 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/workspaces/project-manager-tasks-nextjs/styles/global.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/(auth)/layout.css"
+      ]
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/AuthForm.tsx": {
+      "id": "(app-client)/./components/AuthForm.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/AuthForm.tsx#": {
+      "id": "(app-client)/./components/AuthForm.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/AuthForm.tsx#default": {
+      "id": "(app-client)/./components/AuthForm.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Button.tsx": {
+      "id": "(app-client)/./components/Button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Button.tsx#": {
+      "id": "(app-client)/./components/Button.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Button.tsx#default": {
+      "id": "(app-client)/./components/Button.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Card.tsx": {
+      "id": "(app-client)/./components/Card.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Card.tsx#": {
+      "id": "(app-client)/./components/Card.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Card.tsx#default": {
+      "id": "(app-client)/./components/Card.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Input.tsx": {
+      "id": "(app-client)/./components/Input.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Input.tsx#": {
+      "id": "(app-client)/./components/Input.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/components/Input.tsx#default": {
+      "id": "(app-client)/./components/Input.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/lib/api.ts": {
+      "id": "(app-client)/./lib/api.ts",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/lib/api.ts#": {
+      "id": "(app-client)/./lib/api.ts",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/lib/api.ts#register": {
+      "id": "(app-client)/./lib/api.ts",
+      "name": "register",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/lib/api.ts#signin": {
+      "id": "(app-client)/./lib/api.ts",
+      "name": "signin",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
+    },
+    "/workspaces/project-manager-tasks-nextjs/node_modules/next/dist/esm/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/(auth)/sign-in/page:static/chunks/app/(auth)/sign-in/page.js"
+      ],
+      "async": false
     }
   }
 }
